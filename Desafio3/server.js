@@ -1,6 +1,6 @@
 
-const Contenedor = require('./desafio2'); // Contenedor del desafio2
-const products = new Contenedor('products.txt'); // Creamos un nuevo Contenedor
+const Contenedor = require('./desafio2'); 
+const products = new Contenedor('products.txt'); 
 const PORT = process.env.Port || 8080;
 
 const express = require('express');
